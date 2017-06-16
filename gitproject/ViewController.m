@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "mapviewcontroller.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"hello world");
+    NSString *mapviewcontroller1=[[mapviewcontroller alloc]init];
+    NSLog(@"%@",mapviewcontroller1);
+    
 }
 
 

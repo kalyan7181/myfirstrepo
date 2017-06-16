@@ -15,6 +15,7 @@
 		842660301EF3D35200B1D15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8426602E1EF3D35200B1D15F /* LaunchScreen.storyboard */; };
 		8426603B1EF3D35200B1D15F /* gitprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8426603A1EF3D35200B1D15F /* gitprojectTests.m */; };
 		842660461EF3D35200B1D15F /* gitprojectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842660451EF3D35200B1D15F /* gitprojectUITests.m */; };
+		842660551EF3ECBA00B1D15F /* mapviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 842660541EF3ECBA00B1D15F /* mapviewcontroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		842660411EF3D35200B1D15F /* gitprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842660451EF3D35200B1D15F /* gitprojectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitprojectUITests.m; sourceTree = "<group>"; };
 		842660471EF3D35200B1D15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842660531EF3ECBA00B1D15F /* mapviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapviewcontroller.h; sourceTree = "<group>"; };
+		842660541EF3ECBA00B1D15F /* mapviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapviewcontroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				842660241EF3D35200B1D15F /* AppDelegate.m */,
 				842660261EF3D35200B1D15F /* ViewController.h */,
 				842660271EF3D35200B1D15F /* ViewController.m */,
+				842660531EF3ECBA00B1D15F /* mapviewcontroller.h */,
+				842660541EF3ECBA00B1D15F /* mapviewcontroller.m */,
 				842660291EF3D35200B1D15F /* Main.storyboard */,
 				8426602C1EF3D35200B1D15F /* Assets.xcassets */,
 				8426602E1EF3D35200B1D15F /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				842660281EF3D35200B1D15F /* ViewController.m in Sources */,
 				842660251EF3D35200B1D15F /* AppDelegate.m in Sources */,
 				842660221EF3D35200B1D15F /* main.m in Sources */,
+				842660551EF3ECBA00B1D15F /* mapviewcontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
